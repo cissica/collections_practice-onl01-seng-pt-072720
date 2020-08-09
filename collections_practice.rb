@@ -48,5 +48,6 @@ def add_s(words)
       return "#{elements}"
     else
       return "#{elements} + s"
+    end
   end
 end
