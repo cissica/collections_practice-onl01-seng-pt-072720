@@ -47,6 +47,6 @@ def add_s(words)
     if "#{index}" == 2
       return "#{elements}"
     else
-      return "#{elements} + "s""
+      return "#{elements} + s"
   end
 end
