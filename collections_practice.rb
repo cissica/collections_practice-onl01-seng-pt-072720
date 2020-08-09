@@ -36,3 +36,6 @@ def kesha_maker(strings)
   new_strings << string[2] = "$"
 end
 end
+def find_a(strings)
+  start_with_a = strings.select {|string| string.start_with?}
+end
