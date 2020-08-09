@@ -50,5 +50,4 @@ def add_s(words)
       element << "s"
     end
   end
-  new
 end
