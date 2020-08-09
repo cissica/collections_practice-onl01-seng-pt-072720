@@ -45,5 +45,6 @@ end
 def add_s(words)
   words.each_with_index.collect do |element, index|
     element << "s"
+    yield element if index == 2
   end
 end
