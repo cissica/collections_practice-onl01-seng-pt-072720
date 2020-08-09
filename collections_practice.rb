@@ -30,3 +30,8 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+def kesha_maker(strings)
+  new_strings = []
+  strings.each do |string|
+    new_strings << tring[3] = "$"
+end
