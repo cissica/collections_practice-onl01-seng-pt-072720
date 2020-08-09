@@ -33,6 +33,6 @@ end
 def kesha_maker(strings)
   new_strings = []
   strings.each do |string|
-  new_strings << string[3] = "$"
+  new_strings << string[2] = "$"
 end
 end
