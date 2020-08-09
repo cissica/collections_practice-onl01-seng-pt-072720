@@ -42,3 +42,11 @@ end
 def sum_array(integers)
   integers.inject {|result, i| result + i }
 end
+def add_s(words)
+  words.each_with_index.collect do |element, index| 
+    if "#{index}" == 2 
+      return "#{elements}"
+    else
+      return "#{elements} + "s""
+  end 
+end
