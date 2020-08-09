@@ -23,3 +23,6 @@ def sort_array_char_count(strings)
     end
   end
 end
+def swap_elements(a)
+  a[0], a[1] = a[1], a[0]
+end
