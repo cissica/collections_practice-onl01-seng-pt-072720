@@ -45,9 +45,9 @@ end
 def add_s(words)
   words.each_with_index.collect do |element, index|
     if "#{index}" == 2
-      return "#{elements}"
+      return "#{element}"
     else
-      return "#{elements} + s"
+      return "#{element} + s"
     end
   end
 end
