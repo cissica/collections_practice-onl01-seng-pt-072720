@@ -44,7 +44,9 @@ def sum_array(integers)
 end
 def add_s(words)
   words.each_with_index.collect do |element, index|
-    element << "s"
-    yield element if index == 1
+    if element == 1
+      return element
+    else
+      element << "s"
   end
 end
