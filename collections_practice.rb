@@ -35,3 +35,4 @@ def kesha_maker(strings)
   strings.each do |string|
   new_strings << tring[3] = "$"
 end
+end
